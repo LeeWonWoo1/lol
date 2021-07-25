@@ -1,0 +1,237 @@
+body {
+  height: 100vh;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  padding: 200px 0;
+}
+.container .champions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 110px 20px;
+}
+.container .champions .champion {
+  width: 272px;
+  height: 320px;
+  margin: 4px;
+  border: 3px solid #540;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #555;
+  overflow: hidden;
+  transform: skewX(-10deg);
+  transition: 
+    transform .1s, 
+    background-color .6s;
+}
+.container .champions .champion:hover {
+  background-color: #ff9c00;
+  transform: scale(1.3) skewX(-10deg);
+  z-index: 1;
+}
+.container .champions .champion .image {
+  width: 133%;
+  height: 115%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  transform: skewX(10deg) translateX(-32px);
+}
+.container .champions .champion:nth-child(1) .image { background-image: url("./champion/garen.jpg"); }
+.container .champions .champion:nth-child(2) .image { background-image: url("./champion/galio.jpg"); }
+.container .champions .champion:nth-child(3) .image { background-image: url("./champion/gangplank.jpg"); }
+.container .champions .champion:nth-child(4) .image { background-image: url("./champion/gragas.jpg"); }
+.container .champions .champion:nth-child(5) .image { background-image: url("./champion/graves.jpg"); }
+.container .champions .champion:nth-child(6) .image { background-image: url("./champion/gwen.jpg"); }
+.container .champions .champion:nth-child(7) .image { background-image: url("./champion/gnar.jpg"); }
+.container .champions .champion:nth-child(8) .image { background-image: url("./champion/nami.jpg"); }
+.container .champions .champion:nth-child(9) .image { background-image: url("./champion/nasus.jpg"); }
+.container .champions .champion:nth-child(10) .image { background-image: url("./champion/nautilus.jpg"); }
+.container .champions .champion:nth-child(11) .image { background-image: url("./champion/nocturne.jpg"); }
+.container .champions .champion:nth-child(12) .image { background-image: url("./champion/nunu.jpg"); }
+.container .champions .champion:nth-child(13) .image { background-image: url("./champion/nidalee.jpg"); }
+.container .champions .champion:nth-child(14) .image { background-image: url("./champion/neeko.jpg"); }
+.container .champions .champion:nth-child(15) .image { background-image: url("./champion/darius.jpg"); }
+.container .champions .champion:nth-child(16) .image { background-image: url("./champion/diana.jpg"); }
+.container .champions .champion:nth-child(17) .image { background-image: url("./champion/draven.jpg"); }
+.container .champions .champion:nth-child(18) .image { background-image: url("./champion/ryze.jpg"); }
+.container .champions .champion:nth-child(19) .image { background-image: url("./champion/rakan.jpg"); }
+.container .champions .champion:nth-child(20) .image { background-image: url("./champion/rammus.jpg"); }
+.container .champions .champion:nth-child(21) .image { background-image: url("./champion/lux.jpg"); }
+.container .champions .champion:nth-child(22) .image { background-image: url("./champion/rumble.jpg"); }
+.container .champions .champion:nth-child(23) .image { background-image: url("./champion/renekton.jpg"); }
+.container .champions .champion:nth-child(24) .image { background-image: url("./champion/leona.jpg"); }
+.container .champions .champion:nth-child(25) .image { background-image: url("./champion/reksai.jpg"); }
+.container .champions .champion:nth-child(26) .image { background-image: url("./champion/rell.jpg"); }
+.container .champions .champion:nth-child(27) .image { background-image: url("./champion/rengar.jpg"); }
+.container .champions .champion:nth-child(28) .image { background-image: url("./champion/lucian.jpg"); }
+.container .champions .champion:nth-child(29) .image { background-image: url("./champion/lulu.jpg"); }
+.container .champions .champion:nth-child(30) .image { background-image: url("./champion/leblanc.jpg"); }
+.container .champions .champion:nth-child(31) .image { background-image: url("./champion/leesin.jpg"); }
+.container .champions .champion:nth-child(32) .image { background-image: url("./champion/riven.jpg"); }
+.container .champions .champion:nth-child(33) .image { background-image: url("./champion/lissandra.jpg"); }
+.container .champions .champion:nth-child(34) .image { 
+  background-image: url("./champion/lillia.jpg");
+  height: 105%;
+  background-size: 600px;
+}
+.container .champions .champion:nth-child(35) .image { background-image: url("./champion/masteryi.jpg"); }
+.container .champions .champion:nth-child(36) .image { background-image: url("./champion/maokai.jpg"); }
+.container .champions .champion:nth-child(37) .image { background-image: url("./champion/malzahar.jpg"); }
+.container .champions .champion:nth-child(38) .image { background-image: url("./champion/malaphite.jpg"); }
+.container .champions .champion:nth-child(39) .image { background-image: url("./champion/mordekaiser.jpg"); }
+.container .champions .champion:nth-child(40) .image { background-image: url("./champion/morgana.jpg"); }
+.container .champions .champion:nth-child(41) .image { background-image: url("./champion/drmundo.jpg"); }
+.container .champions .champion:nth-child(42) .image { background-image: url("./champion/missfortune.jpg"); }
+.container .champions .champion:nth-child(43) .image { background-image: url("./champion/bard.jpg"); }
+.container .champions .champion:nth-child(44) .image { background-image: url("./champion/varus.jpg"); }
+.container .champions .champion:nth-child(45) .image { background-image: url("./champion/vi.jpg"); }
+.container .champions .champion:nth-child(46) .image { background-image: url("./champion/veigar.jpg"); }
+.container .champions .champion:nth-child(47) .image { background-image: url("./champion/vayne.jpg"); }
+.container .champions .champion:nth-child(48) .image { background-image: url("./champion/velkoz.jpg"); }
+.container .champions .champion:nth-child(49) .image { 
+  background-image: url("./champion/volibear.jpg"); 
+  height: 105%;
+  background-size: 600px;  
+}
+.container .champions .champion:nth-child(50) .image { background-image: url("./champion/braum.jpg"); }
+.container .champions .champion:nth-child(51) .image { background-image: url("./champion/brand.jpg"); }
+.container .champions .champion:nth-child(52) .image { background-image: url("./champion/vladimir.jpg"); }
+.container .champions .champion:nth-child(53) .image { background-image: url("./champion/blitzcrank.jpg"); }
+.container .champions .champion:nth-child(54) .image { background-image: url("./champion/viego.jpg"); }
+.container .champions .champion:nth-child(55) .image { background-image: url("./champion/viktor.jpg"); }
+.container .champions .champion:nth-child(56) .image { background-image: url("./champion/poppy.jpg"); }
+.container .champions .champion:nth-child(57) .image {
+  background-image: url("./champion/samira.jpg"); 
+  height: 105%;
+  background-size: 600px;
+}
+.container .champions .champion:nth-child(58) .image { background-image: url("./champion/sion.jpg"); }
+.container .champions .champion:nth-child(59) .image { background-image: url("./champion/sylas.jpg"); }
+.container .champions .champion:nth-child(60) .image { background-image: url("./champion/shaco.jpg"); }
+.container .champions .champion:nth-child(61) .image { background-image: url("./champion/senna.jpg"); }
+.container .champions .champion:nth-child(62) .image {
+  background-image: url("./champion/seraphine.jpg");
+  height: 105%;
+  background-size: 600px;
+}
+.container .champions .champion:nth-child(63) .image { background-image: url("./champion/sejuani.jpg"); }
+.container .champions .champion:nth-child(64) .image {
+  background-image: url("./champion/sett.jpg");
+  height: 105%;
+  background-size: 600px;
+}
+.container .champions .champion:nth-child(65) .image { background-image: url("./champion/sona.jpg"); }
+.container .champions .champion:nth-child(66) .image { background-image: url("./champion/soraka.jpg"); }
+.container .champions .champion:nth-child(67) .image { background-image: url("./champion/shen.jpg"); }
+.container .champions .champion:nth-child(68) .image { background-image: url("./champion/shyvana.jpg"); }
+.container .champions .champion:nth-child(69) .image { background-image: url("./champion/swain.jpg"); }
+.container .champions .champion:nth-child(70) .image { background-image: url("./champion/skarner.jpg"); }
+.container .champions .champion:nth-child(71) .image { background-image: url("./champion/sivir.jpg"); }
+.container .champions .champion:nth-child(72) .image { background-image: url("./champion/xinzhao.jpg"); }
+.container .champions .champion:nth-child(73) .image { background-image: url("./champion/syndra.jpg"); }
+.container .champions .champion:nth-child(74) .image { background-image: url("./champion/singed.jpg"); }
+.container .champions .champion:nth-child(75) .image { background-image: url("./champion/thresh.jpg"); }
+.container .champions .champion:nth-child(76) .image { background-image: url("./champion/ahri.jpg"); }
+.container .champions .champion:nth-child(77) .image { background-image: url("./champion/amumu.jpg"); }
+.container .champions .champion:nth-child(78) .image { background-image: url("./champion/aurelionsol.jpg"); }
+.container .champions .champion:nth-child(79) .image { background-image: url("./champion/ivern.jpg"); }
+.container .champions .champion:nth-child(80) .image { background-image: url("./champion/azir.jpg"); }
+.container .champions .champion:nth-child(81) .image { background-image: url("./champion/akali.jpg"); }
+.container .champions .champion:nth-child(82) .image { background-image: url("./champion/aatrox.jpg"); }
+.container .champions .champion:nth-child(83) .image {
+  background-image: url("./champion/aphelios.jpg");
+  height: 105%;
+  background-size: 600px;
+}
+.container .champions .champion:nth-child(84) .image { background-image: url("./champion/alistar.jpg"); }
+.container .champions .champion:nth-child(85) .image { background-image: url("./champion/annie.jpg"); }
+.container .champions .champion:nth-child(86) .image { background-image: url("./champion/anivia.jpg"); }
+.container .champions .champion:nth-child(87) .image { background-image: url("./champion/ashe.jpg"); }
+.container .champions .champion:nth-child(88) .image { background-image: url("./champion/yasuo.jpg"); }
+.container .champions .champion:nth-child(89) .image { background-image: url("./champion/ekko.jpg"); }
+.container .champions .champion:nth-child(90) .image { background-image: url("./champion/elise.jpg"); }
+.container .champions .champion:nth-child(91) .image { background-image: url("./champion/monkeyking.jpg"); }
+.container .champions .champion:nth-child(92) .image { background-image: url("./champion/ornn.jpg"); }
+.container .champions .champion:nth-child(93) .image { background-image: url("./champion/orianna.jpg"); }
+.container .champions .champion:nth-child(94) .image { background-image: url("./champion/olaf.jpg"); }
+.container .champions .champion:nth-child(95) .image {
+  background-image: url("./champion/yone.jpg");
+  height: 105%;
+  background-size: 600px;
+}
+.container .champions .champion:nth-child(96) .image { background-image: url("./champion/yorick.jpg"); }
+.container .champions .champion:nth-child(97) .image { background-image: url("./champion/udyr.jpg"); }
+.container .champions .champion:nth-child(98) .image { background-image: url("./champion/urgot.jpg"); }
+.container .champions .champion:nth-child(99) .image { background-image: url("./champion/warwick.jpg"); }
+.container .champions .champion:nth-child(100) .image { background-image: url("./champion/yuumi.jpg"); }
+.container .champions .champion:nth-child(101) .image { background-image: url("./champion/irelia.jpg"); }
+.container .champions .champion:nth-child(102) .image { background-image: url("./champion/evelynn.jpg"); }
+.container .champions .champion:nth-child(103) .image { background-image: url("./champion/ezreal.jpg"); }
+.container .champions .champion:nth-child(104) .image { background-image: url("./champion/illaoi.jpg"); }
+.container .champions .champion:nth-child(105) .image { background-image: url("./champion/jarvaniv.jpg"); }
+.container .champions .champion:nth-child(106) .image { background-image: url("./champion/xayah.jpg"); }
+.container .champions .champion:nth-child(107) .image { background-image: url("./champion/zyra.jpg"); }
+.container .champions .champion:nth-child(108) .image { background-image: url("./champion/zac.jpg"); }
+.container .champions .champion:nth-child(109) .image { background-image: url("./champion/janna.jpg"); }
+.container .champions .champion:nth-child(110) .image { background-image: url("./champion/jax.jpg"); }
+.container .champions .champion:nth-child(111) .image { background-image: url("./champion/zed.jpg"); }
+.container .champions .champion:nth-child(112) .image { background-image: url("./champion/xeratth.jpg"); }
+.container .champions .champion:nth-child(113) .image { background-image: url("./champion/jayce.jpg"); }
+.container .champions .champion:nth-child(114) .image { background-image: url("./champion/zoe.jpg"); }
+.container .champions .champion:nth-child(115) .image { background-image: url("./champion/ziggs.jpg"); }
+.container .champions .champion:nth-child(116) .image { background-image: url("./champion/jhin.jpg"); }
+.container .champions .champion:nth-child(117) .image { background-image: url("./champion/zilean.jpg"); }
+.container .champions .champion:nth-child(118) .image { background-image: url("./champion/jinx.jpg"); }
+.container .champions .champion:nth-child(119) .image { background-image: url("./champion/chogath.jpg"); }
+.container .champions .champion:nth-child(120) .image { background-image: url("./champion/karma.jpg"); }
+.container .champions .champion:nth-child(121) .image { background-image: url("./champion/camille.jpg"); }
+.container .champions .champion:nth-child(122) .image { background-image: url("./champion/kassadin.jpg"); }
+.container .champions .champion:nth-child(123) .image { background-image: url("./champion/karthus.jpg"); }
+.container .champions .champion:nth-child(124) .image { background-image: url("./champion/cassiopeia.jpg"); }
+.container .champions .champion:nth-child(125) .image { background-image: url("./champion/kaisa.jpg"); }
+.container .champions .champion:nth-child(126) .image { background-image: url("./champion/khazix.jpg"); }
+.container .champions .champion:nth-child(127) .image { background-image: url("./champion/katarina.jpg"); }
+.container .champions .champion:nth-child(128) .image { background-image: url("./champion/kalista.jpg"); }
+.container .champions .champion:nth-child(129) .image { background-image: url("./champion/kennen.jpg"); }
+.container .champions .champion:nth-child(130) .image { background-image: url("./champion/caitlyn.jpg"); }
+.container .champions .champion:nth-child(131) .image { background-image: url("./champion/kayn.jpg"); }
+.container .champions .champion:nth-child(132) .image { background-image: url("./champion/kayle.jpg"); }
+.container .champions .champion:nth-child(133) .image { background-image: url("./champion/kogmaw.jpg"); }
+.container .champions .champion:nth-child(134) .image { background-image: url("./champion/corki.jpg"); }
+.container .champions .champion:nth-child(135) .image { background-image: url("./champion/quinn.jpg"); }
+.container .champions .champion:nth-child(136) .image { background-image: url("./champion/kled.jpg"); }
+.container .champions .champion:nth-child(137) .image { background-image: url("./champion/qiyana.jpg"); }
+.container .champions .champion:nth-child(138) .image { background-image: url("./champion/kindred.jpg"); }
+.container .champions .champion:nth-child(139) .image { background-image: url("./champion/taric.jpg"); }
+.container .champions .champion:nth-child(140) .image { background-image: url("./champion/talon.jpg"); }
+.container .champions .champion:nth-child(141) .image { background-image: url("./champion/taliyah.jpg"); }
+.container .champions .champion:nth-child(142) .image { background-image: url("./champion/tahmkench.jpg"); }
+.container .champions .champion:nth-child(143) .image { background-image: url("./champion/trundle.jpg"); }
+.container .champions .champion:nth-child(144) .image { background-image: url("./champion/tristana.jpg"); }
+.container .champions .champion:nth-child(145) .image { background-image: url("./champion/tryndamere.jpg"); }
+.container .champions .champion:nth-child(146) .image { background-image: url("./champion/twistedfate.jpg"); }
+.container .champions .champion:nth-child(147) .image { background-image: url("./champion/twitch.jpg"); }
+.container .champions .champion:nth-child(148) .image { background-image: url("./champion/teemo.jpg"); }
+.container .champions .champion:nth-child(149) .image { background-image: url("./champion/pyke.jpg"); }
+.container .champions .champion:nth-child(150) .image { background-image: url("./champion/pantheon.jpg"); }
+.container .champions .champion:nth-child(151) .image { background-image: url("./champion/fiddlesticks.jpg"); }
+.container .champions .champion:nth-child(152) .image { background-image: url("./champion/fiora.jpg"); }
+.container .champions .champion:nth-child(153) .image { background-image: url("./champion/fizz.jpg"); }
+.container .champions .champion:nth-child(154) .image { background-image: url("./champion/heimerdinger.jpg"); }
+.container .champions .champion:nth-child(155) .image { background-image: url("./champion/hecarim.jpg"); }
+
+.container .logo {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container .logo img {
+  width: 100%;
+}
